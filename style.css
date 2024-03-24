@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #440a2a;
+    color: white;
+    text-align: center;
+    padding: 1.7rem;/**/
+    position: sticky;/*Faz com que o header cubra o que estive abaixo*/
+    top: 0;
+    left: 0;
+}
+
+.menu-nav{
+    text-align: center;
+    list-style: none;
+}
+
+.menu-nav li{
+    display: inline;/*Deixando em forma de linha*/
+    margin: 0 10px;
+}
+
+.menu-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-nav li a:hover{
+    color: #d0cf75;
+}
+
+.section1{
+    padding: 35vh;/*35% da tela - viewport height*/
+    background-color: #da2644;
+    color: white;
+}
+
+.section2{
+    padding: 35vh;/*35% da tela - viewport height*/
+    background-color: #f8764e
+}
+
+.section3{
+    padding: 35vh;/*35% da tela - viewport height*/
+    background-color: #d0cf75
+}
+
+footer{
+    background-color: #440a2a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
